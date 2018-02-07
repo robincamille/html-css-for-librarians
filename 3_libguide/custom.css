@@ -1,0 +1,67 @@
+body {
+  background:#0c1e38;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a:link, a:visited {
+  color: #214f94;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #00b5c8;
+}
+
+a:active {
+  color: #00b5c8;
+  text-decoration: none;
+}
+
+p a, li a {
+  /* links inside paragraphs <p> and lists <li> */
+  border-bottom: 1px solid;
+}
+
+p a:active, p a:hover, li a:active, li a:hover {
+  border-bottom: 2px solid;
+}
+
+.s-lib-profile-email a {
+  color:#000;
+  font-weight:normal;
+}
+
+#s-lg-tabs-container .nav-tabs li a, #s-lg-tabs-container .nav-pills li a {
+  /* styling related to tabs inside libguides */
+  font-weight:normal;
+}
+
+.s-lib-box .s-lib-box-title {
+  font-size:16px; 
+ }
+
+.s-lg-tabs-container {
+  background-color:#fff;
+}
+
+.s-lib-side-borders {
+  padding-left:20px;
+  padding-right:20px;
+  background-color:#fff;
+}
+
+.nav .s-lg-index-nav-btn>button {
+  /* main tabs on homepage */
+  color:#1f496e;
+}
+
+a.btn-info {
+  /* any <a> link with class="btn-info" */
+  color:#fff;
+}
+
+.s-lib-color-lt-grey {
+  /* "Loading" in grey; original color got contrast error */
+  color:#4c4c4c;
+}

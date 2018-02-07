@@ -1,0 +1,547 @@
+/* This includes ANY global CSS that applies site-wide. 
+Unless overwritten by a more specific style rule, 
+CSS declarations in global.css will apply site-wide. */
+
+
+/* css for text --------------------------------------------------------------------------------*/
+body {
+  font: 15px/1.5 Helvetica, Arial, sans-serif;
+}
+
+a:link, a:visited {
+  color:#4071b8;
+  text-decoration: none;
+}
+a:hover {
+  color:#00a7e5;
+  text-decoration: none;
+}
+
+a:active{
+  color: #00a7e5;
+  text-decoration: none;
+}
+
+blockquote {
+margin: 0 30px 0 30px;
+margin: 0 30px 0 30px;
+
+}
+/* enable this to print library calendar */
+header h2.page-title{
+/*display: none;*/
+}
+/* end enable this to print library calendar */
+
+p a {border-bottom:1px dotted;}
+
+
+li a {/*	border-bottom: 1px dotted;*/
+	border-bottom:0;
+}
+hr {
+  margin:15px 15px 20px 15px;
+  padding: 0;
+  border: none;
+  height: 1px;
+  background: #c0c0c0;
+}
+h1 a, h1 a:link, h1 a:visited, 
+h2 a, h2 a:link, h2 a:visited, 
+h3 a, h3 a:link, h3 a:visited, 
+h4 a, h4 a:link, h4 a:visited, 
+h5 a, h5 a:link, h5 a:visited, 
+h6 a, h6 a:link, h6 a:visited {
+/*color:#0b4f91;*/
+color:#4071b8;
+}
+h1 a:hover,  
+h2 a:hover, 
+h3 a:hover, 
+h4 a:hover, 
+h5 a:hover, 
+h6 a:hover {
+color:#00a7e5;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+/* Make site titles the same size if it's an H1 (home) or H2 (internal) */
+h1.site-name,
+h2.site-name {
+  font-size: 36px;
+}
+
+h2 {
+    margin:10px 0 15px 0;
+}
+
+/* Make it a bit smaller for block headers */
+h2.block-title {
+  font-size: 18px;
+}
+
+h2.node-title {
+  font-size: 15px;
+}
+
+h3 {
+  font-size: 21px;
+  margin:25px 0 10px 0;
+}
+
+h4 {
+  font-size: 19px;
+  margin:15px 0 5px 0;
+}
+
+h5 {
+  font-size: 17px;
+  margin:15px 0 5px 0;
+}
+
+h6 {
+  font-size: 12px;
+  margin:15px 0 5px 0;
+}
+
+ol, ul {
+    margin-left:40px;
+}
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: circle;
+}
+
+ul ul,
+ol ol {
+  padding-top: 0.5em;
+}
+
+.node ol,
+.node ul {
+  padding-left: 1.2em;
+}
+
+.node ul.inline,
+.node ol.inline {
+  padding-left: 0;
+}
+
+dl, hr, h1, h3, h4, h5, h6, ol,
+ul, pre, table, address, fieldset {
+  margin-bottom: 5px;
+}
+p {
+	margin-bottom:10px;
+}
+
+h6.field-content {
+	margin:10px 0 0 0;
+	padding-top:10px;
+}
+dt, .admin h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+dd {
+  padding-left: 10px;
+  font-size: 0.9em;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.read-more {
+	display:inline;
+	margin:0 0 10px 0;
+}
+.blog-teaser {
+    display:inline;
+}
+.blog_usernames_blog a {
+    display:none;
+}
+tr.even,
+tr.odd {
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 0.1em 0.6em;
+}
+tr.odd {
+  background-color: #eee;
+}
+tr.odd:first-child {
+  background-color: #eee;
+  border-top: 1px solid #ddd;
+}
+tr.even {
+  background-color: #f8f8f8;
+}
+td {
+    border-left:1px;
+    border-right:1px;
+}
+td:first-child {
+    border-left:0px;
+}
+td:last-child {
+    border-right:0px;
+}
+/* front page styles ------------------------------------------------------------*/
+.block-superfish-2  {  
+    z-index:99999;
+    }
+#zone-menu {
+background-color: #eee;
+border-top:3px solid #00a7e5;
+border-bottom:1px solid #ddd;
+}
+
+.block-views-library-hours-block {
+margin: 0;
+width:100%;
+}
+.views-field-field-lib-hours {
+    padding-top:15px;
+}
+#region-footer-second a,
+#region-footer-second a:link,
+#region-footer-second a:visited {
+text-decoration: none;
+border-bottom:1px dotted;
+color: #ffffff;
+}
+#region-footer-second {
+background-color: transparent;
+margin-top: 20px;
+color:#fff;
+padding-bottom:30px;
+}
+
+.view-lib-workshops .view-content table {
+width:100%;
+padding:5px;
+}
+.views-table .views-field { 
+border:1px;
+padding:4px;
+}
+.quicklinks {
+    width:48%;
+    float:left;
+    text-align:left;
+}
+.quicklinks ul {
+    list-style-type:none;
+    margin-left:0;
+}
+.quicklinks ul li {
+    padding:6px 0;
+}
+.element-invisible {
+    display:none;
+}
+
+td.views-field-field-workshop-time-1, td.views-field views-field-field-workshop-time-2 { /* sidebar workshop calendars */
+    min-width:65px;
+}
+
+.askus {float:left;margin-right:15px;text-align:center;} /* Ask us (icons) */
+/* breadcrumbs ------------------------------------------------------------*/
+
+#breadcrumb ul {
+	list-style-type:none;
+	margin-left:0px; /* normal ul margin-left is 40 px*/
+	margin-top:10px;
+	font-size:0.8em;
+}
+#breadcrumb ul li {
+	display:inline;
+	padding:0 5px;
+}
+#breadcrumb ul li:first-child {
+	display:inline;
+	padding:0 5px 0 0;
+}
+#breadcrumb ul li:after {
+	content:" »"
+}
+#breadcrumb ul li:last-child {
+	content:""
+}
+.breadcrumb li.depth-3 {
+display: none;
+}
+
+/* database list ------------------------------------------------------------*/
+.db-table-db-name {
+    width:48%;
+    vertical-align:top;
+}
+.db-table-body {
+    width:48%;
+    font-size:0.9em;
+    vertical-align:top;
+}
+.db-table-body p {
+    margin:0 0 5px 0;
+}
+.db-table-tech-fee {
+    vertical-align:top;
+}
+.db-table-letters a {
+    margin:5px 0;
+    font-size:18px;
+    font-weight:bold;
+}
+/* css for user login-------------------------------------------------------------------------------- */
+#zone-branding-wrapper {
+display: none;
+}
+.region-branding img {
+    max-width:100%;
+    height:auto;
+}
+#user-login-form div {
+    margin: 0 3px 0 0;
+    float: left;
+}
+#user-login-form{
+    width: 100%;
+}
+#user-login-form label,  #user-login-form input {
+    float: left;	
+    margin-right: 2px;
+}
+#user-login-form .item-list{  
+    padding-left: 20px;
+}
+#user-login-form .form-required  {
+    display: none;
+}
+#user-login-form .item-list ul li {
+    float: left;
+    margin: 0;
+    margin-right: 0;
+    padding: 0;
+}
+#block-user-login {
+    margin-top: 2px;
+}
+#block-user-login h2 {
+    display: none;
+}
+/* hide header zone in mobile display*/
+#zone-header {
+display: none;
+}
+/* css for user login ends */
+#block-superfish-1 {
+}
+/* webform -----------------------------------------------------------------------------*/
+
+/* see omega/omega/formalize.css */
+
+/* email us webform -----------------------------------------------------------------------------*/
+#webform-client-form-820 div.webform-component {
+    padding:8px 0;
+}
+#webform-client-form-820 label {
+    font-weight:bold;
+}
+#webform-client-form-820 .option {
+    font-weight:normal;
+}
+/* style for layout elements --------------------------------------------------------------------------------*/
+#page {
+/*background-color: #040F47;*/
+font-family: helvetica,arial,sans-serif;
+font-size: 90%;
+background:transparent;
+}
+
+#region-content {
+width: auto;
+}
+p {
+text-align: left;
+}
+article.node-page table tbody tr td {
+    padding:10px;
+    border:1px solid #ddd;
+}
+article.node-page table {
+    border-collapse:collapse;
+}
+
+/* quicktabs menu --------------------------------------------------*/
+
+.quicktabs-tabs li {
+    display: none;
+    background-color: #F6F1CD;
+}
+#quicktabs-container-homepage_tab_menu {
+    min-height: 240px;
+    height:auto;
+    z-index:10;
+}
+.quicktabs-tabpage span.views-field views-field-body {
+}
+.field-content#search,
+.field-content#browse {
+    display: none;
+    height: 0;
+}
+.view-tab-find-articles-view, .view-tab-find-books-view, .view-tab-find-journals-view {
+    margin-top: -12px;
+}
+.quicktabs_main.quicktabs-style-zen{
+    clear:both;
+}
+ul.quicktabs-tabs.quicktabs-style-zen {
+    border-bottom:1px solid silver;
+    margin:0 0 10px 0;
+    padding:0 0 7px;
+    font-size:1em;
+    list-style: none;
+    height:31px;
+    background-image: none;
+}
+ul.quicktabs-tabs.quicktabs-style-zen li a {
+    font-weight:normal;
+    background:none;
+    display: block;
+    margin: 0;
+    padding:9px 20px 5px 20px;
+    border-width: 0;
+    background-image: none;
+    font: inherit;
+    font-size-adjust:inherit;
+}
+ul.quicktabs-tabs.quicktabs-style-zen li {
+    background-color:rgb(248, 248, 248);
+    border: 1px solid #ccc;
+    border-right:none;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    position:relative;
+    top:-3px;
+    font-size:14px;
+    float: left;
+    margin:0 0px;
+    padding: 0 0 0 0px;
+    position:relative;
+    top:1px;
+    background-image: none;
+}
+ul.quicktabs-tabs.quicktabs-style-zen li:last-child {
+    border-right:1px solid #ccc;
+}
+ul.quicktabs-tabs.quicktabs-style-zen li:hover a {
+    background: #eee;
+    border-width: 0;
+    background-image: none;
+}
+ul.quicktabs-tabs.quicktabs-style-zen li.active a:hover{   
+    background-image: none;
+}
+
+
+ul.quicktabs-tabs.quicktabs-style-zen li.active a, ul.quicktabs-tabs.quicktabs-style-zen li.active a:hover {background:none;}
+ul.quicktabs-tabs.quicktabs-style-zen li.active, ul.quicktabs-tabs.quicktabs-style-zen li.active:hover {
+    background-color: #ffffff;
+    background-image: none;
+    border-bottom:2px solid #FFF;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.block-quicktabs {
+    margin: 0px 0 5px 0;    
+    width:100%;
+    position: relative;
+    float: left;
+}
+.quicktabs-tabs li {
+    display: none;
+}
+.item-list .quicktabs-tabs a, 
+.item-list .quicktabs-tabs a:link,
+.item-list .quicktabs-tabs a:visited {
+text-decoration: none;
+}
+.item-list .quicktabs-tabs {
+text-align: center;
+
+}
+.quicktabs-views-group p {
+    padding: 10px 0 0 0;
+}
+#quicktabs-container-homepage_tab_menu {
+    border-right: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    border-left: 1px solid #c0c0c0;
+    text-align: center;
+    line-height: 150%;
+    padding: 10px 20px;
+    margin-bottom:5px;
+    position:relative;
+    top:-10px;
+}
+html ul.quicktabs-tabs.quicktabs-style-zen li{
+    margin-bottom:-5px;
+}
+ul.quicktabs-tabs.quicktabs-style-zen li.first {
+
+    border-left:1px #c0c0c0 solid;
+}
+
+
+/* see formalize.css for .getinfo items*/
+
+
+.view-news a {
+	border-bottom:0;
+}
+#block-superfish-2 a {
+        border:none;
+}
+#block-superfish-2 a {
+	border:none;
+}
+
+.slidingDiv {
+    background-color: #dff5fd;
+    padding:3px;
+    border:1px solid #bcebfb;
+}
+.show_hide {
+    display:none;
+}
+.slidingDiv_question {
+}
+.show_hide_question {
+    display:none;
+    border:none;
+}
+
+.footer-img .print {
+	display: none;
+}
