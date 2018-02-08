@@ -37,13 +37,6 @@
             color: #507C00;
          }
 
-         img {
-            float: left;
-            /* align all the way to the left and let other pieces of content snuggle up on the right */
-            clear: left;
-            /* don't snuggle up to anything on the left except the edge of the parent element */
-         }
-
          p {
             font-family: Palatino, Times, serif;
          }
@@ -60,9 +53,21 @@
             box-shadow: 0px 0px 10px #aaa;
          }
 
-         #nav li {}
+         #nav {
+           background-color: #f0f0f0;
+           padding:20px 50px;
+           margin-bottom:50px;
+         }
 
-         #portrait {}
+         #nav li {
+           font-size:1.5em;
+         }
+
+         #portrait {
+           width:200px;
+           height:229px;
+           float:left;
+         }
 
          #footer {}
       </style>
@@ -75,10 +80,9 @@
 
          <h1>A Story by O. Henry</h1>
 
-         <ul>
+         <ul id="nav">
             <li>
                <a href="#bio">About O. Henry</a>
-               <!-- linking to locations within the document -->
             </li>
             <li>
                <a href="#story" style="color:#C89F57">The Last Leaf</a>
@@ -88,8 +92,8 @@
             </li>
          </ul>
 
-         <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/William_Sydney_Porter_by_doubleday.jpg"
-           alt="Portrait of O. Henry" width="200" height="229" title="Photo by W.M. Vanderweyde, New York (1923) - NYPL Digital Gallery"
+         <img id="portrait" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/William_Sydney_Porter_by_doubleday.jpg"
+           alt="Portrait of O. Henry" title="Photo by W.M. Vanderweyde, New York (1923) - NYPL Digital Gallery"
          />
 
          <h2>
@@ -108,7 +112,7 @@
             </h2>
 
          <p>From <em>The Trimmed Lamp, and other Stories of the Four Million</em> by
-            O. Henry (1906)</p>
+            O. Henry (1907)</p>
 
          <p>In a little district west of Washington Square the streets have run crazy
             and broken themselves into small strips called "places." These "places"

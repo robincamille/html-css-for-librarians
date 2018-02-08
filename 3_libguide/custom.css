@@ -4,58 +4,27 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Link styling -----------------------------------------*/
+
 a:link,
 a:visited {
 	color: #214f94;
 	text-decoration: none;
 }
 
-a:hover,
-a:focus {
+a:hover {
 	color: #00b5c8;
-}
-
-a:active {
-	color: #00b5c8;
-	text-decoration: none;
 }
 
 p a,
 li a {
-	/* links inside paragraphs <p> and lists <li> */
+	/* links inside paragraphs <p> and list items <li> */
 	border-bottom: 1px solid;
 }
 
-p a:active,
 p a:hover,
-li a:active,
 li a:hover {
 	border-bottom: 2px solid;
-}
-
-#s-lg-tabs-container .nav-tabs li a,
-#s-lg-tabs-container .nav-pills li a {
-	/* styling related to tabs inside libguides */
-	font-weight: normal;
-}
-
-.s-lib-box .s-lib-box-title {
-	font-size: 16px;
-}
-
-.s-lg-tabs-container {
-	background-color: #ffffff;
-}
-
-.s-lib-side-borders {
-	padding-left: 20px;
-	padding-right: 20px;
-	background-color: #ffffff;
-}
-
-.nav .s-lg-index-nav-btn > button {
-	/* main tabs on homepage */
-	color: #1f496e;
 }
 
 a.btn-info {
@@ -63,7 +32,60 @@ a.btn-info {
 	color: #ffffff;
 }
 
-.s-lib-color-lt-grey {
-	/* "Loading" in grey; original color got contrast error */
-	color: #4c4c4c;
+/* Page section styling -----------------------------------------*/
+
+.s-lg-guide-body {
+	/* The whole page */
+}
+
+.s-lib-side-borders {
+	/* Just the way this is styled in LibGuides */
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #ffffff;
+}
+
+.s-lg-guide-header {
+	/* Top portion of page, containing breadcrumbs, page title, description */
+}
+
+.s-lg-guide-main {
+	/* Main portion of the page, containing boxes */
+}
+
+.s-lib-footer-public {
+	/* Footer, containing Last Updated, etc */
+}
+
+/* Top tabs styling -----------------------------------------*/
+
+.s-lg-tabs-container {
+	/* Container containing tabs */
+	background-color: #ffffff;
+}
+
+#s-lg-tabs-container .nav-tabs li a {
+	/* Links inside tabs at top of page */
+	font-weight: normal;
+	border-radius: 3px;
+}
+
+#s-lg-tabs-container .nav-tabs li a.active {
+	/* Tab of page you're on */
+	font-weight: bold;
+}
+
+/* Page box styling -----------------------------------------*/
+
+.s-lib-box {
+	/* Box, eg Finding Statistics and its contents */
+}
+
+.s-lib-box-title {
+	/* Box title, eg, Finding Statistics */
+	font-size: 16px;
+}
+
+.s-lib-box-content {
+	/* Box content */
 }
