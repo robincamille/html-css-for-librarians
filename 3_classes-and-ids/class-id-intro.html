@@ -6,24 +6,36 @@
       <title>CSS + HTML: The Last Leaf</title>
 
       <style type="text/css">
-         /* comment: this stylesheet is embedded in the page's header. usually, css is stored in a separate, linked file. */
+      
+      /* Note: A class is a reusable label. This one applies the same style to all things labeled "specialparagraph" (a label I just made up) */
+      
+      	.bigparagraph {
+    		font-size:2em;
+      	}
+      
+      
+      /* Note: An id is a unique label. This one picks out just one thing to style: */
+      
+      	#specialparagraph {
+      		border:2px dotted gray;
+      		padding:10px;
+      	}
+      	
+      	
+
 
          body {
             background-color: lightgray;
             font-family: Helvetica, Arial, sans-serif;
-            /* in order of preference, always ending with 'serif' or 'sans-serif' */
             font-size: 1em;
-            /* 'em' is a relative size; you can also use 'px' (pixels) or 'pt' (points) */
          }
 
          a {
-            /* styles for links */
             color: #68A100;
          }
 
          a:visited,
          a:hover {
-            /* style two elements at once with a comma. these two inherit the 'a' styles, too */
             color: #507C00;
          }
 
@@ -42,11 +54,9 @@
          }
 
          div {
-            /* a hash (#) before the name denotes that this refers to an 'id' below (something only used once) */
             background-color: #FFFFFF;
             width: 70%;
             margin: 50px auto 20px auto;
-            /* top, right, bottom, left; setting right and left to 'auto' centers the element if the parent element has a specified width */
             padding: 50px;
             border: 1px solid black;
             border-radius: 10px;
@@ -76,7 +86,6 @@
    <body>
 
       <div>
-         <!-- div is a block (division) of content -->
 
          <h1>A Story by O. Henry</h1>
 
@@ -114,7 +123,7 @@
          <p>From <em>The Trimmed Lamp, and other Stories of the Four Million</em> by
             O. Henry (1907)</p>
 
-         <p>In a little district west of Washington Square the streets have run crazy
+         <p class="bigparagraph">In a little district west of Washington Square the streets have run crazy
             and broken themselves into small strips called "places." These "places"
             make strange angles and curves. One street crosses itself a time or two.
             An artist once discovered a valuable possibility in this street. Suppose
@@ -122,19 +131,19 @@
             this route, suddenly meet himself coming back, without a cent having
             been paid on account!</p>
 
-         <p>So, to quaint old Greenwich Village the art people soon came prowling, hunting
+         <p class="bigparagraph">So, to quaint old Greenwich Village the art people soon came prowling, hunting
             for north windows and eighteenth-century gables and Dutch attics and
             low rents. Then they imported some pewter mugs and a chafing dish or
             two from Sixth avenue, and became a "colony."</p>
 
-         <p>At the top of a squatty, three-story brick Sue and Johnsy had their studio.
+         <p class="bigparagraph">At the top of a squatty, three-story brick Sue and Johnsy had their studio.
             "Johnsy" was familiar for Joanna. One was from Maine; the other from
             California. They had met at the <i>table d'hote</i> of an Eighth street
             "Delmonico's," and found their tastes in art, chicory salad and bishop
             sleeves so congenial that the joint studio resulted.
          </p>
 
-         <p>That was in May. In November a cold, unseen stranger, whom the doctors called
+         <p id="specialparagraph">That was in May. In November a cold, unseen stranger, whom the doctors called
             Pneumonia, stalked about the colony, touching one here and there with
             his icy fingers. Over on the east side this ravager strode boldly, smiting
             his victims by scores, but his feet trod slowly through the maze of the
