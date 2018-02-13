@@ -18,7 +18,7 @@ A super-basic HTML file containing tags like `<a>`, `<p>`, `<img>`, and `<ul>`.
 
 An HTML file with an internal CSS stylesheet that contains basic properties like `font-size`, `background-color`, and `margin`.
 
-### 3_classes-ids/
+### 3_classes-and-ids/
 
 An HTML file with an internal CSS stylesheet that contains examples of `class` and `id`. (I added this after the workshop to make the examples clearer.)
 
