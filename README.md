@@ -1,12 +1,10 @@
 # HTML and CSS for Librarian Professionals
 
-Materials for the "HTML and CSS for Library Professionals" workshop, held Feb. 8, 2018, at Southeastern NY Library Resources Council 
-
-Put together by Robin Camille Davis
+Materials for the "HTML and CSS for Library Professionals" workshop, held Feb. 8, 2018, at Southeastern NY Library Resources Council. Put together by Robin Camille Davis. 
 
 ## Exercise files
 
-[***Download all files (.zip)***](https://github.com/robincamille/html-css-for-librarians/archive/master.zip)
+[Click here to download all files (.zip)](https://github.com/robincamille/html-css-for-librarians/archive/master.zip)
 
 [Slide deck](http://www.robincamille.com/assets/html-css-library-professionals.pdf) (PDF)
 
@@ -47,6 +45,12 @@ For example, to change the color of a link:
 To make an image shrink to 100px wide, align to the left, and have the text flow around it, with some space between the image and text:
 
 `<img src="xyz.jpg" alt="XYZ" style="width:100px; height:auto; float:left; margin-right:20px; margin-bottom:20px;">`
+
+## Troubleshooting
+
+Be sure to save and fully unzip (extract) *all* the files from the .zip you downloaded. Otherwise you'll get a lot of funny symbols in the files when you look at them in Notepad.
+
+Are the .html and .css files showing up as a big text blob in Notepad? A quick workaround is to copy & paste all the code from the file into Word, then copy & paste it back into the original file in Notepad. 
 
 
 ## More resources
