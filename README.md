@@ -8,6 +8,8 @@ Put together by Robin Camille Davis
 
 [***Download all files (.zip)***](https://github.com/robincamille/html-css-for-librarians/archive/master.zip)
 
+[Slide deck](http://www.robincamille.com/assets/html-css-library-professionals.pdf) (PDF)
+
 ### 1_basic-html/
 
 A super-basic HTML file containing tags like `<a>`, `<p>`, `<img>`, and `<ul>`. 
@@ -27,13 +29,24 @@ For blanket customization that will affect all LibGuides. An HTML file (one page
 
 Modify only the stylesheet (`custom.css`) for this exercise. Stylesheet revised to reflect current LibGuides `class`es and `id`s.
 
-#### Bonus! Copy &
 
 ### 5_blank/ 
 
 A blank HTML file and external CSS stylesheet. They contain a starter template for you to fill with whatever your heart desires. 
 
 ---
+
+## Just need code to copy & paste into one blog post, LibGuide box, etc.? 
+
+Use **inline css** to change CSS on the fly.
+
+For example, to change the color of a link:
+
+`<a href="http://cuny.edu/" style="color:orange; font-size:20px;">Link example</a>`
+
+To make an image shrink to 100px wide, align to the left, and have the text flow around it, with some space between the image and text:
+
+`<img src="xyz.jpg" alt="XYZ" style="width:100px; height:auto; float:left; margin-right:20px; margin-bottom:20px;">`
 
 
 ## More resources
