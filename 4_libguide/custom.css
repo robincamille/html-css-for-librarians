@@ -1,3 +1,6 @@
+/* Note: You can change tab colors in the LibGuides Look & Feel section without having to 
+use custom CSS. Anything you change below will override your Look & Feel customizations.
+
 body {
 	background: #0c1e38;
 	font-size: 16px;
@@ -45,21 +48,38 @@ a.btn-info {
 	background-color: #ffffff;
 }
 
-.s-lg-guide-header {
+#s-lg-guide-header {
 	/* Top portion of page, containing breadcrumbs, page title, description */
 }
 
-.s-lg-guide-main {
+#s-lib-bc {
+	/* Breadcrumb links */
+	opacity:.5;
+}
+
+#s-lib-bc:hover {
+	/* Breadcrumb links when moused over */
+	opacity:1;
+}
+
+#s-lg-guide-header-info {
+	/* Typically the container including guide name and description */
+}
+
+#s-lg-guide-main {
 	/* Main portion of the page, containing boxes */
 }
 
-.s-lib-footer-public {
+#s-lib-footer-public {
 	/* Footer, containing Last Updated, etc */
 }
 
 /* Top tabs styling -----------------------------------------*/
 
-.s-lg-tabs-container {
+/* Note: You can change tab colors in the LibGuides Look & Feel section without having to 
+use custom CSS. Anything you change below will override your Look & Feel customizations.
+
+#s-lg-tabs-container {
 	/* Container containing tabs */
 	background-color: #ffffff;
 }
@@ -68,11 +88,28 @@ a.btn-info {
 	/* Links inside tabs at top of page */
 	font-weight: normal;
 	border-radius: 3px;
+	background:darkred;
+}
+
+#s-lg-tabs-container .nav-tabs li a:hover {
+	/* Links inside tabs at top of page, when moused over */
+	background:red;
 }
 
 #s-lg-tabs-container .nav-tabs li a.active {
 	/* Tab of page you're on */
 	font-weight: bold;
+	background:darkorange;
+}
+
+#s-lg-tabs-container .nav-tabs li a.active:hover {
+	/* Tab of page you're on, when moused over */
+	background:orange;
+}
+
+#s-lg-guide-tabs-title-bar {
+	/* Skinny line beneath tabs */
+	border-top:1px solid darkred;
 }
 
 /* Page box styling -----------------------------------------*/
@@ -81,9 +118,9 @@ a.btn-info {
 	/* Box, eg Finding Statistics and its contents */
 }
 
-.s-lib-box-title {
+.s-lib-box .s-lib-box-title {
 	/* Box title, eg, Finding Statistics */
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .s-lib-box-content {
